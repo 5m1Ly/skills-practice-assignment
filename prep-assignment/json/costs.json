@@ -1,0 +1,87 @@
+{
+	"speed-multiplier": 1.5,
+	"detail-multipliers": {
+		"Grof": 1,
+		"Medium": 3,
+		"Fijn": 5
+	},
+	"materials": [
+		{
+			"name": "ABS",
+			"price": 1,
+			"printers": [
+				{
+					"color": "Geel",
+					"dmg-cost": 0.02,
+					"detail-limitation": [
+						"Grof",
+						"Medium",
+						"Fijn"
+					]
+				}
+			]
+		},
+		{
+			"name": "PLA",
+			"price": 1.5,
+			"printers": [
+				{
+					"color": "Blauw",
+					"dmg-cost": 0.01,
+					"detail-limitation": [
+						"Grof",
+						"Medium",
+						"Fijn"
+					]
+				}
+			]
+		},
+		{
+			"name": "Koper",
+			"price": 3,
+			"printers": [
+				{
+					"color": "Groen",
+					"dmg-cost": 0.02,
+					"detail-limitation": [
+						"Grof"
+					]
+				},
+				{
+					"color": "Paars",
+					"dmg-cost": 0.05,
+					"detail-limitation": [
+						"Medium",
+						"Fijn"
+					]
+				}
+			]
+		},
+		{
+			"name": "Aluminium",
+			"price": 5,
+			"printers": [
+				{
+					"color": "Roze",
+					"dmg-cost": 0.01,
+					"detail-limitation": [
+						"Grof",
+						"Medium"
+					]
+				},
+				{
+					"color": "Bruin",
+					"dmg-cost": 0.02,
+					"detail-limitation": [
+						"Fijn"
+					]
+				}
+			]
+		}
+	],
+	"printers": {
+		"Geel": {
+			"costs": 0.02
+		}
+	}
+}
