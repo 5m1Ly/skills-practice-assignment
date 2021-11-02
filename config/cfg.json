@@ -1,0 +1,91 @@
+{
+	"speed": 1.5,
+	"detail": [
+		{
+			"name": "grof",
+			"price": 1
+		},
+		{
+			"name": "medium",
+			"price": 3
+		},
+		{
+			"name": "fijn",
+			"price": 5
+		}
+	],
+	"materials": [
+		{
+			"name": "abs",
+			"price": 1,
+			"machines": [
+				{
+					"color": "yellow",
+					"dmgCost": 0.02,
+					"details": [
+						"grof",
+						"medium",
+						"fijn"
+					]
+				}
+			]
+		},
+		{
+			"name": "pla",
+			"price": 1.5,
+			"machines": [
+				{
+					"color": "blue",
+					"dmgCost": 0.01,
+					"details": [
+						"grof",
+						"medium",
+						"fijn"
+					]
+				}
+			]
+		},
+		{
+			"name": "kopper",
+			"price": 3,
+			"machines": [
+				{
+					"color": "green",
+					"dmgCost": 0.02,
+					"details": [
+						"grof"
+					]
+				},
+				{
+					"color": "purple",
+					"dmgCost": 0.05,
+					"details": [
+						"medium",
+						"fijn"
+					]
+				}
+			]
+		},
+		{
+			"name": "aluminum",
+			"price": 5,
+			"machines": [
+				{
+					"color": "pink",
+					"dmgCost": 0.01,
+					"details": [
+						"grof",
+						"medium"
+					]
+				},
+				{
+					"color": "brown",
+					"dmgCost": 0.02,
+					"details": [
+						"fijn"
+					]
+				}
+			]
+		}
+	]
+}

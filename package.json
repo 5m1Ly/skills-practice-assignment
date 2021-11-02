@@ -1,0 +1,20 @@
+{
+	"name": "skills-practice-assignment",
+	"version": "1.0.0",
+	"description": "Bill calculation api",
+	"main": "node app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/5m1Ly/skills-practice-assignment.git"
+	},
+	"author": "Sm1Ly",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/5m1Ly/skills-practice-assignment/issues"
+	},
+	"homepage": "https://github.com/5m1Ly/skills-practice-assignment#readme"
+}
